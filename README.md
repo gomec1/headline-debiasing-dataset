@@ -4,6 +4,25 @@
 > Bern University of Applied Sciences (BFH) — Business School  
 > Author: Carlos Gomez
 
+## Part of a Three-Repository Project
+ 
+This repository is one part of three interconnected repositories that together form the
+complete research project. It provides the **data foundation**: a GDELT-based ETL
+pipeline and a dataset of 7,187 political news headlines from 77 US outlets, balanced
+across five bias categories (LEFT to RIGHT) according to the AllSides Media Bias Chart.
+ 
+For the thesis analyses, a random subsample of 50 headlines was drawn from this dataset
+using the included `sample_random_news.py` script and manually annotated to create a
+ground truth for Analysis 2.1 in the evaluation app. The full dataset and pipeline are
+published here for anyone who wants to collect their own GDELT data or work with the
+broader headline corpus.
+ 
+| Repository | What it contains |
+|---|---|
+| 📦 **[headline-debiasing-dataset](https://github.com/gomec1/headline-debiasing-dataset)** ← *you are here* | GDELT data pipeline + 7,187 headline dataset |
+| 🔬 **[headline-debiasing-evaluation](https://github.com/gomec1/headline-debiasing-evalaluation)** | LLM evaluation app — bias detection and rewriting experiments across multiple models (research-grade, exploratory) |
+| 🛠️ **[headline-debiasing-editor](https://github.com/gomec1/headline-debiasing-editor)** | The finished KI-Redakteur prototype — clean, user-facing tool for scoring and neutralizing headlines |
+ 
 ---
 
 ## Overview
