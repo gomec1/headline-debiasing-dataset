@@ -1,4 +1,4 @@
-# KI-gestützte Entbiasierung von Headlines — Design, Implementation und Evaluation
+# GDELT Headline Dataset
 
 > **Bachelor Thesis** | Bachelor of Science in Digital Business & AI  
 > Bern University of Applied Sciences (BFH) — Business School  
@@ -147,7 +147,7 @@ This project is licensed under the **MIT License** — see [LICENSE](LICENSE) fo
 
 This repository accompanies the bachelor thesis:
 
-> **KI-gestützte Entbiasierung von Headlines — Design, Implementation und Evaluation**  
+> **KI-gestützte Entbiasierung von Headlines — Design, Implementation und Evaluation**
 > Carlos Gomez  
 > Bachelor of Science in Digital Business & AI  
 > Bern University of Applied Sciences (BFH), Business School  
